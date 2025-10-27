@@ -1,0 +1,152 @@
+body {
+  background: linear-gradient(135deg, #0f225f, #0b1f33);
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+#buttonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#timer {
+  color: #111827;
+  font-size: 5 rem;
+  font-weight: 500;
+  text-align: center;
+  background: #388edfcc;
+  padding: 20px 30px;
+  border-radius: 15px;
+  border-color: #a1abcc;
+  border-style: groove;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+#start {
+  background-color: #3fbd04;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 15px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#start:hover {
+  background-color: #1c8a06;
+  transform: scale(1.03);
+}
+
+#start:active {
+  transform: scale(0.97);
+}
+#pause {
+  background-color: #d41010;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 15px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#pause:hover {
+  background-color: #9b0b0b;
+  transform: scale(1.03);
+}
+
+#pause:active {
+  transform: scale(0.97);
+}
+#restart {
+  background-color: #f1bb45;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 15px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#restart:hover {
+  background-color: #cfa415;
+  transform: scale(1.03);
+}
+
+#restart:active {
+  transform: scale(0.97);
+}
+
+#guardar {
+  background-color: #45f1b8;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 15px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#guardar:hover {
+  background-color: #15cfc6;
+  transform: scale(1.03);
+}
+
+#guardar:active {
+  transform: scale(0.97);
+}
+
+#vueltas {
+    list-style: none;          /* quitar viñetas */
+    padding: 10px 15px;
+    margin: 10px auto 0 auto;
+    width: 80%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.05); /* efecto semi-transparente */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    color: #fff;
+    max-height: 250px;         /* si hay muchas vueltas, agrega scroll */
+    overflow-y: auto;
+}
+
+
+#vueltas li {
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s ease, transform 0.1s ease;
+    cursor: default;
+}
+
+
+#vueltas li:hover {
+    background: rgba(0, 0, 0, 0.35);
+    transform: scale(1.02);
+}
+
+
