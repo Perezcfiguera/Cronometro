@@ -114,18 +114,18 @@ body {
 }
 
 #vueltas {
-    list-style: none;          /* quitar viñetas */
+    list-style: none;          
     padding: 10px 15px;
     margin: 10px auto 0 auto;
     width: 80%;
     max-width: 600px;
-    background: rgba(255, 255, 255, 0.05); /* efecto semi-transparente */
+    background: rgba(255, 255, 255, 0.05); 
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: left;
     color: #fff;
-    max-height: 250px;         /* si hay muchas vueltas, agrega scroll */
+    max-height: 250px;         
     overflow-y: auto;
 }
 
